@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #F7F6F4;
+}
+
+.main {
+    background-image: url('./bedroom.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+
+h1 {
+    background: none;
+    color: #333;
+    padding: 20px;
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.style {
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    overflow: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+
+h2 {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 38%;
+    color: white;
+    font-size: 35px;
+
+    font-family: .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    ;
+
+}
+
+div p {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 37%;
+    font-size: 19px;
+    font-style: bold;
+
+}
+
+button {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 46%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+}
+
+input {
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    margin-left: 17%;
+    top: 3.5em;
+}
+
+.para {
+    position: absolute;
+    font-size: 40px;
+    left: 35%;
+}
+
+.img {
+    position: absolute;
+    top: 49em;
+}
+
+.img p {
+    position: absolute;
+    font-size: 30px;
+    top: 6em;
+    margin: 2px;
+    color: white;
+    left: 3%;
+}
+
+.img1 p {
+    position: absolute;
+    top: 7em;
+    margin: 10px;
+}
+
+.img1 button {
+    position: absolute;
+    width: 100px;
+    right: 80em;
+    top: -2%;
+    border-color: white;
+}
+
+.img2 p {
+    position: absolute;
+    top: 7.2em;
+    left: 10.5em;
+}
+
+.img2 button {
+    position: absolute;
+    bottom: 23.5em;
+    right: 60em;
+    width: 100px;
+    border-color: white;
+}
+
+.img3 p {
+    position: absolute;
+    top: 7.2em;
+    left: 20.5em;
+}
+
+.img3 button {
+    position: absolute;
+    width: 100px;
+    bottom: 23.5em;
+    right: 37em;
+    border-color: white;
+}
+
+.img4 p {
+    position: absolute;
+    top: 7.2em;
+    left: 30.7em;
+}
+
+.img4 button {
+    position: absolute;
+    width: 100px;
+    bottom: 23.5em;
+    right: 14em;
+    border-color: white;
+}
+
+.img5 p {
+    position: absolute;
+    top: 17.3em;
+    right: 10em;
+}
+
+.img5 button {
+    position: absolute;
+    top: 21.7em;
+    width: 100px;
+    right: 88.5%;
+    border-color: white;
+}
+
+.img6 p {
+    position: absolute;
+    top: 17.4em;
+    left: 26%;
+}
+
+.img6 button {
+    position: absolute;
+    width: 100px;
+    bottom: 1em;
+    left: -18em;
+    border-color: white;
+}
+
+.img7 p {
+    position: absolute;
+    top: 17.4em;
+    left: 20.5em;
+}
+
+.img7 button {
+    position: absolute;
+    width: 100px;
+    bottom: 1em;
+    right: 37em;
+    border-color: white;
+}
+
+.img8 p {
+    position: absolute;
+    top: 17.4em;
+    left: 76.5%;
+}
+
+.img8 button {
+    position: absolute;
+    width: 100px;
+    bottom: 1em;
+    right: 14em;
+    border-color: white;
+}
+
+.back {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.back {
+    content: '';
+    background-image: url(./cita.webp);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    top: 43em;
+}
+
+.back p {
+    position: absolute;
+    font-size: 60px;
+    width: 600px;
+    color: white;
+    right: 9.6em;
+
+}
+
+.back button {
+    position: absolute;
+    color: white;
+    top: 13em;
+    right: 78em;
+    width: 140px;
+    background: transparent;
+    border-color: white;
+}
+
+span p {
+    position: absolute;
+    top: 114em;
+    left: 5em;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    font-size: 500vh;
+    left: 35%;
+    width: 250px;
+    top: .7em;
+    bottom: 20%;
+    align-items: center;
+}
+
+.project{
+    position: absolute;
+    top: 136em;
+    left: 2.5em;
+}
+
+.project p{
+    position: absolute;
+    width: 200px;
+    bottom: -3em;
+    right: 4em;
+}
+
+.project button{
+    position: absolute;
+    width: 110px;
+    top: 28em;
+    right: 11em;
+    border-color: white;
+}
+
+.showroom{
+    position: absolute;
+    top: 136em;
+    left: 29em;
+}
+
+.showroom P{
+    position: absolute;
+    width: 200px;
+    bottom: -3em;
+    right: 1em;
+}
+
+.showroom button{
+    position: absolute;
+    width: 110px;
+    top: 28em;
+    right: 8.5em;
+    border-color: white;
+}
+
+.Design{
+    position: absolute;
+    top: 136em;
+    left: 55em;
+}
+
+.Design p{
+    position: absolute;
+    width: 200px;
+    bottom: -3em;
+    right: 1em;
+}
+
+.Design button{
+    position: absolute;
+    width: 110px;
+    top: 28em;
+    right: 6em;
+    border-color: white;
+}
+
+.new{
+    position: absolute;
+    top: 169em;
+}
+
+.new p{
+    position: absolute;
+    width: 500px;
+    right: 27%;
+    bottom: 5em;
+    color: white;
+    font-size: 50px;
+}
+
+.new button{
+    position: absolute;
+    width: 150px;
+    right: 45%;
+    top: 2em;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.one{
+    position: absolute;
+    width: 200px;
+    top: 66em;
+    left: 10em;
+    font-size: 50px;
+}
+
+.img9{
+    position: absolute;
+    right: 2.9em;
+    top: 1.4em;
+}
+
+.img9 p{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(254, 254, 254);
+    right: 9.7em;
+    bottom: .7em;
+}
+
+.img9 button{
+    position: absolute;
+    width: 140px;
+    top: 32em;
+    right: 30em;
+    border-color: white;
+}
+
+.img10{
+    position: absolute;
+    left: 1.4em;
+    top: 1.4em;
+}
+
+.img10 p{
+    position: absolute;
+    width: 40px;
+    color: white;
+    width: 150px;
+    right: 27.4em;
+    bottom: 2.5em;
+}
+
+.img10 button{
+    position: absolute;
+    width: 140px;
+    right: 40em;
+    top: 11.5em;
+    border-color: white;
+}
+
+.img11{
+    position: absolute;
+    top: 8.6em;
+    left: 1.4em;
+}
+
+.img11 p{
+    position: absolute;
+    width: 300px;
+    font-size: 40px;
+    color: white;
+    right: 9.3em;
+    bottom: .6em;
+}
+
+.img11 button{
+    position: absolute;
+    width: 140px;
+    right: 40em;
+    top: 11.4em;
+    border-color: white;
+}
+
+.back2{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.back2{
+    content: '';
+    background-image: url(./furniture.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    top: 169em;
+}
+
+.back2 p{
+    position: absolute;
+    width: 600px;
+    font-size: 70px;
+    color: white;
+    right: 4em;
+    bottom: 4em;
+}
+
+.back2 pre{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    bottom: 17em;
+    left: 20.4em;
+}
+
+.back2 button{
+    position: absolute;
+    color: white;
+    width: 150px;
+    right: 40.2em;
+    bottom: 20em;
+    background: transparent;
+    border-color: white;
+
+}
+
+.brand p{
+    position: absolute;
+    font-size: 40px;
+    width: 400px;
+    right: 20em;
+    top: 112em;
+}
+
+.img12{
+    position: absolute;
+    top: 300em;
+    left: 6em;
+}
+
+.img12 p{
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    left: -6em;
+    top: 11em;
+}
+
+.img13{
+    position: absolute;
+    top: 300em;
+    left: 30em;
+}
+
+.img13 p{
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    left: -5em;
+    top: 11em;
+}
+
+.img14{
+    position: absolute;
+    top: 300em;
+    left: 54em;
+}
+
+.img14 p{
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    left: -5em;
+    top: 11em;
+}
